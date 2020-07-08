@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=500px height=350px border-radius=20px src="/public/layout.png" alt="logo"></a>
+</p>
 
-## Available Scripts
+<h3 align="center">Weather App</h3>
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center"> 🍔 A simple weather application built with <b>React.js</b>, <b>Redux</b> and <b>SASS</b>
+<br>
+<a href="http://weather-app-michael.s3-website.us-east-2.amazonaws.com/">Demo Link</a>
+</p>
 
-### `npm test`
+## 📝 Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Inspiration](#inspiration)
+- [About](#about)
+- [Demo](#demo)
+- [How it works](#working)
+- [APIs](#apis)
+- [Getting Started](#getting_started)
+- [Authors](#authors)
 
-### `npm run build`
+## 🧐 Inspiration <a name = "inspiration"></a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I saw a very fancy UI of weather-app from dribble, which leaded me wanting to restore the that UI with my HTML and CSS knowledge. Moreover, I also  completed the features which the UI shows as possible as I can.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🧐 about <a name = "about"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This Weather App allows users to search the weather condition in any place around the world. In addition, I provides 7-day weather forecast and detailed current weather at that time.
+This weather app is also supported on iPhone and iPad.
 
-### `npm run eject`
+<p>
+<img width=296px height=400px border-radius=20px src="/public/layout-ipad.png" alt="logo"></a>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🎥 Demo <a name = "demo"></a>
+- Demo URL: http://weather-app-michael.s3-website.us-east-2.amazonaws.com/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💭 How it works <a name = "working"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- This Web App is developed based on `React.js`;
+- `Fetch API` is used to send HTTP requests to fetch the weather data;
+- `Eslint` used to inspect the problematic code;
+- Followed the principle of Thinking in React to build reusable, maintainable and readable components and applications.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💭 APIs <a name = "apis"></a>
 
-## Learn More
+- Weather Data is retrieved from  http://www.weatherbit.io/;
+- City Photo Data is retrieved from http://www.unsplash.com
+- To run this app, you'll need a Weatherbit API key and Unsplash API key.
+1. Create your account and get your API keys from the above API addresses.
+2. Open the project and go to the `.env.development` file.
+3. Enter your API keys.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Code Splitting
+### 🔧 Prerequisites
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+What things you need to install the software and how to install them.
 
-### Analyzing the Bundle Size
+```
+Node
+React
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### ⛏️ Installing
 
-### Making a Progressive Web App
+At root folder
+```
+npm install
+npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## ✍️ Authors <a name = "authors"></a>
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [@Michael Guo](https://github.com/ismichaelguo) - Idea & Initial work

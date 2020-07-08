@@ -147,6 +147,7 @@
 
       @include iphone() {
         height: 0;
+        opacity:0;
       }
     }
 

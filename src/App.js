@@ -24,7 +24,8 @@ class App extends React.Component {
 
     let city = e.target.elements[0].value || "Sydney";
     //splash photo api
-    const Access_key = "BHJyBbJMrYRBqHzYuivvgBVspMShqGua5e0W1BvBkrA";
+    const Access_key = process.env.REACT_APP_PHOTO_KEY;
+    console.log("photo",Access_key)
     const photo_api = await fetch(
       `https://api.unsplash.com/search/photos/?client_id=${Access_key}&query=${city}&orientation=landscape`
     );
@@ -62,7 +63,8 @@ class App extends React.Component {
 
   getWeatherData = async (e) => {
     // forecast weather api
-    const API_KEY = "45ba571f29c54202a86d5d62ca83141a";
+    const API_KEY = process.env.REACT_APP_WEATHER_KEY;
+    console.log("weather_key",API_KEY)
     const city = e.target.id;
     const FroeCastWeatherData = await fetch(
       `http://api.weatherbit.io/v2.0/forecast/daily?city=${city}&key=${API_KEY}`
