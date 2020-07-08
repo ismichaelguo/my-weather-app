@@ -13,7 +13,7 @@
 
 ---
 
-<p align="center"> 🍔 A simple weather application built with <b>React.js</b>, <b>Redux</b> and <b>SASS</b>
+<p align="center"> 🍔 A simple weather application built with <b>React.js</b> and <b>SASS</b>
 <br>
 <a href="http://weather-app-michael.s3-website.us-east-2.amazonaws.com/">Demo Link</a>
 </p>
